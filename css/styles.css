@@ -204,6 +204,18 @@ img {
 	line-height: 1.14px;
 }
 
+/* HERO-GENERAL */
+
+.hero-content-formation {
+	background-image: url(../img/toweb/hero/Hero_bg.jpg);
+	background-color: var(--secondary-background-color);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
 /* HERO */
 
 .hero-title {
@@ -214,11 +226,6 @@ img {
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 30px;
-}
-.hero-content-formation {
-	background-color: var(--secondary-background-color);
-	padding-top: 200px;
-	padding-bottom: 200px;
 }
 
 /* HERO-BUTTON */
@@ -240,6 +247,17 @@ img {
 	margin: 0 auto;
 	padding: 10px 32px;
 }
+
+/* HERO-DECOR */
+
+/* FEATURES-ICON */
+
+.features-icon {
+	width: 270px;
+	height: 120px;
+	background-color: rgb(26, 26, 27);
+}
+
 /* FEATURES */
 
 .features-section-formation {
@@ -489,3 +507,5 @@ img {
 .footer-cont_link-mod:focus {
 	color: var(--inter-color);
 }
+
+/* TEST */
