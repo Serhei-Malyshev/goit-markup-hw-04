@@ -358,6 +358,42 @@ img {
 	background-color: var(--background-color);
 }
 
+/* TEAM-SOC-ICON */
+
+.team-soc_icon-formation {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.team-soc_icon-svg_style {
+	fill: rgba(175, 177, 184, 1);
+}
+
+.team-soc_icon-link_formation {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.team-soc_icon-link_formation:hover {
+	background-color: var(--inter-color);
+}
+
+.team-soc_icon-link_formation:focus{
+	background-color: var(--inter-color);
+}
+.team-soc_icon-link_formation:hover .team-soc_icon-svg_style {
+	fill: rgba(255, 255, 255, 1);
+}
+.team-soc_icon-link_formation:focus .team-soc_icon-svg_style {
+	fill: rgba(255, 255, 255, 1);}
+
+
 /* PORTFOLIO-FILTER-BUTTON */
 
 .portfolio-section-formation {
