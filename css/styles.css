@@ -101,19 +101,22 @@ img {
 
 /* HEADER-LOGO */
 
-.header-logo-flex {
+/* .header-logo-flex {
 	display: flex;
 	padding-top: 24px;
 	padding-bottom: 25px;
-}
+} */
 
-.logo_blue {
+.header-logo_blue {
+	display: block;
 	font-family: "Raleway";
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
 	color: var(--inter-color);
+	padding-top: 24px;
+	padding-bottom: 25px;
 }
 
 .logo_black {
@@ -512,7 +515,14 @@ img {
 	background-color: var(--secondary-background-color);
 }
 
-.footer-logo-formation {
+.footer-logo_blue {
+	display: block;
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--inter-color);
 	margin-bottom: 20px;
 }
 
