@@ -82,6 +82,7 @@ img {
 .site-section-text {
 	font-size: 14px;
 	line-height: 1.7;
+	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
 }
 
@@ -281,6 +282,9 @@ img {
 .features-content-flex {
 	display: flex;
 	gap: 30px;
+}
+.features-box-basis_calc {
+	flex-basis: calc((100% - 3 * 30px) / 4);
 }
 
 .features-sub_title {
