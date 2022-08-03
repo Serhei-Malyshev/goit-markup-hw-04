@@ -4,7 +4,7 @@
 	"insertPragma": false,
 	"jsxBracketSameLine": false,
 	"jsxSingleQuote": false,
-	"printWidth": 400,
+	"printWidth": 200,
 	"proseWrap": "never",
 	"quoteProps": "as-needed",
 	"requirePragma": false,
@@ -14,5 +14,7 @@
 	"trailingComma": "all",
 	"useTabs": true,
 	"vueIndentScriptAndStyle": false,
-	"singleAttributePerLine": false
+	"singleAttributePerLine": false,
+	"htmlWhitespaceSensitivity": "ignore",
+	"html.format.wrapAttributes": "force-aligned"
 }
