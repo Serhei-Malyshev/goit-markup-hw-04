@@ -139,7 +139,6 @@ img {
 	display: flex;
 	gap: 30px;
 	margin-left: 93px;
-	padding: 32px 0;
 }
 
 .header-nav_menu_link-style {
@@ -147,6 +146,7 @@ img {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+	padding: 32px 0;
 	color: var(--primery-text-color);
 }
 
@@ -179,13 +179,13 @@ img {
 	display: flex;
 	gap: 50px;
 	margin-left: auto;
-	padding: 32px 0;
 }
 
 .header-mail_link_style {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14px;
+	padding: 32px 0;
 	color: var(--secondary-text-color);
 }
 
@@ -193,6 +193,7 @@ img {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14px;
+	padding: 32px 0;
 	color: var(--secondary-text-color);
 }
 
@@ -385,15 +386,15 @@ img {
 	background-color: var(--inter-color);
 }
 
-.team-soc_icon-link_formation:focus{
+.team-soc_icon-link_formation:focus {
 	background-color: var(--inter-color);
 }
 .team-soc_icon-link_formation:hover .team-soc_icon-svg_style {
 	fill: rgba(255, 255, 255, 1);
 }
 .team-soc_icon-link_formation:focus .team-soc_icon-svg_style {
-	fill: rgba(255, 255, 255, 1);}
-
+	fill: rgba(255, 255, 255, 1);
+}
 
 /* PORTFOLIO-FILTER-BUTTON */
 
