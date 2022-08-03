@@ -15,6 +15,5 @@
 	"useTabs": true,
 	"vueIndentScriptAndStyle": false,
 	"singleAttributePerLine": false,
-	"htmlWhitespaceSensitivity": "ignore",
 	"html.format.wrapAttributes": "force-aligned"
 }
