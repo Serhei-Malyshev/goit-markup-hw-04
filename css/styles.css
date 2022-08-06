@@ -55,19 +55,16 @@ ul {
 /* --скидываем_отступы_от_изображений---------------*/
 
 img {
+	max-width: 100%;
 	display: block;
 }
 
-/* html {
-	box-sizing: border-box;
-} */
-
 /* --не поставил - не человек-----------------------*/
-/* *,
+*,
 *::before,
 *::after {
-	box-sizing: inherit;
-} */
+	box-sizing: border-box;
+}
 
 /* Размер_конейнеров */
 
@@ -75,7 +72,7 @@ img {
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
-	/* outline: 2px dashed #2196f3; */
+	outline: 2px dashed #2196f3;
 }
 /* Общие_оформление_текста_в_секциях */
 
@@ -100,12 +97,6 @@ img {
 }
 
 /* HEADER-LOGO */
-
-/* .header-logo-flex {
-	display: flex;
-	padding-top: 24px;
-	padding-bottom: 25px;
-} */
 
 .header-logo_blue {
 	display: block;
@@ -215,10 +206,12 @@ img {
 
 .hero-content-formation {
 	background-image: url(../img/toweb/hero/Hero_bg.jpg);
-	background-color: var(--secondary-background-color);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	margin: 0 auto;
+	max-width: 1600px;
+	background-color: var(--secondary-background-color);
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
@@ -256,8 +249,6 @@ img {
 	margin: 0 auto;
 	padding: 10px 32px;
 }
-
-/* HERO-DECOR */
 
 /* FEATURES-ICON */
 
@@ -508,6 +499,51 @@ img {
 	color: var(--secondary-text-color);
 }
 
+/* CLIENTS */
+
+.clients-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+/* CLIENTS LOGO */
+
+.clients-logo-logo_casing {
+	width: 170px;
+	height: 92px;
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
+	display: block;
+	padding: 16px 32px;
+}
+
+.clients-logo-logo_casing:hover, 
+.clients-logo-logo_casing:focus {
+	border: 1px solid var(--inter-color);
+}
+
+.clients-logo-logo_casing:hover .clients-logo-style {
+fill: var(--inter-color);
+}
+
+.clients-logo-logo_casing:focus .clients-logo-style {
+	fill: var(--inter-color);
+}
+
+.clients-logo-formation {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+
+}
+
+.clients-logo-style {
+	fill: rgba(175, 177, 184, 1);
+}
+
 /* FOOTER */
 
 .footer-section-formation {
@@ -566,3 +602,4 @@ img {
 }
 
 /* TEST */
+/* "printWidth": "Prose Wrap", */
