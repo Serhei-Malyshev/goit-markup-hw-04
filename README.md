@@ -130,6 +130,13 @@ https://www.figma.com/file/1ehrLBauvVFu4mVhxsHzyZ/Web-Studio-(Version-2.1)?node-
 
 29. Меняю цвет лого при фокусе: .clients-logo-logo_casing:focus .clients-logo-style {fill: var(--inter-color);
 
+30. Создаю отступы через gap по макету 30px в css: 
+
+31. Задаю правильный размер кейсов .clients-logo_casing-basis_calc {flex-basis: calc((100% - 5 * 30px) / 6);} в html: 
+<li class="clients-logo_casing-basis_calc">
+
+32. Обворачиваю контейнер для внутрених отступов между секциями 94px <section class="clients-wrap">
+
 22. Вставляю в кейсы лого: внутри svg создаю стиль <svg class="clients-logo_casing-svg_style"></svg>
 
 23. Убрал параметр display: block в кейсах .clients-logo-logo_casing

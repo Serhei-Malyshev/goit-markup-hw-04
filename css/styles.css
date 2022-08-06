@@ -501,6 +501,10 @@ img {
 
 /* CLIENTS */
 
+.clients-wrap {
+	padding: 94px 0;
+}
+
 .clients-title {
 	font-weight: 700;
 	font-size: 36px;
@@ -511,13 +515,24 @@ img {
 
 /* CLIENTS LOGO */
 
+.clients-logo-formation {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	gap: 30px;
+}
+
+.clients-logo_casing-basis_calc {
+	flex-basis: calc((100% - 5 * 30px) / 6);
+}
+
 .clients-logo-logo_casing {
 	width: 170px;
 	height: 92px;
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
-	display: block;
 	padding: 16px 32px;
+	display: block;
 }
 
 .clients-logo-logo_casing:hover, 
@@ -531,13 +546,6 @@ fill: var(--inter-color);
 
 .clients-logo-logo_casing:focus .clients-logo-style {
 	fill: var(--inter-color);
-}
-
-.clients-logo-formation {
-	display: flex;
-	justify-content: center;
-	margin-top: 50px;
-
 }
 
 .clients-logo-style {
