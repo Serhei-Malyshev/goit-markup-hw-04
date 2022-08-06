@@ -135,8 +135,61 @@ https://www.figma.com/file/1ehrLBauvVFu4mVhxsHzyZ/Web-Studio-(Version-2.1)?node-
 31. Задаю правильный размер кейсов .clients-logo_casing-basis_calc {flex-basis: calc((100% - 5 * 30px) / 6);} в html: 
 <li class="clients-logo_casing-basis_calc">
 
-32. Обворачиваю контейнер для внутрених отступов между секциями 94px <section class="clients-wrap">
+32. Обворачиваю контейнер для внутрених отступов между секциями 94px в html: <section class="clients-wrap"> в css: padding: 94px 0;
 
-22. Вставляю в кейсы лого: внутри svg создаю стиль <svg class="clients-logo_casing-svg_style"></svg>
+FEATURES
 
-23. Убрал параметр display: block в кейсах .clients-logo-logo_casing
+1. Выкачиваю иконки с макета
+
+2. Оптимизирую в сервисе: https://jakearchibald.github.io/svgomg/ с включеной функцыей Prettify murkup
+
+3. Создаю спрайт в https://icomoon.io/
+
+4. Оптимизирую спрайт в сервисе: https://jakearchibald.github.io/svgomg/ с включеной функцыей Prettify murkup
+
+5. Создаю кейс для логотипа <a href="#" class="link features-logo-logo_casing"></a>
+
+6. Создаю параметры кейса для лого по макету в css: 	
+    width: 270px;
+	height: 120px;
+	background: #F5F4FA;
+	border-radius: 4px;
+
+7. Задаю блочный параметр в .features-logo-logo_casing:
+    display: block;
+
+8. Ставлю иконку в кейс тегом svg и use, задаю размер по макету <a href="#" class="link features-logo-logo_casing"><svg width="70" height="70"><use href="./img/toweb/features/features_logo.svg#icon-antenna"></use></svg></a>
+
+9. Рзмещаю иконки в кейсе согласно макету в css .features-logo-logo_casing
+    padding: 25px 100px;
+
+10. Центрирую кейс в css: .features-logo-logo_casing 
+    margin: 0 auto;
+
+11. Создаю нижний отступ от кейса 30px в css: .features-logo-logo_casing 
+    margin-bottom: 30px;
+
+12. Отключаю курсор при наведении в css: .features-logo-logo_casing:
+    cursor: default;
+
+HEADER ICON CONTACT
+
+1. Выкачиваю иконки с макета в фигме
+
+2. Оптимизирую в сервисе: https://jakearchibald.github.io/svgomg/ с включеной функцыей Prettify murkup
+
+3. Создаю спрайт в https://icomoon.io/
+
+4. Оптимизирую спрайт в сервисе: https://jakearchibald.github.io/svgomg/ с включеной функцыей Prettify murkup
+
+5. Создаю ссылку на иконку <svg><use href="./img/toweb/header/icon_contact.svg#icon-smartphone-1"></use></svg>
+
+6. Изменяю размер иконки <a href="mailto:info@devstudio.com" target="_blank" class="header-mail_link_style header-contact-mod link"><svg width="16" height="12"><use href="./img/toweb/header/icon_contact.svg#icon-envelope-hover-1"></use></svg>info@devstudio.com</a>
+
+7. Создаю стиль для иконки .header-contact-icon_contact_style и вставляю в html: <svg class="header-contact-icon_contact_style" width="10" height="16"><use href="./img/toweb/header/icon_contact.svg#icon-smartphone-1"></use></svg>+38 096 111 11 11</a>
+
+8. Задаю отступ в css: .header-contact-icon_contact_style
+    margin-right: 10px;
+
+9. Применяю стиль ссылки к иконке в css: .header-contact-icon_contact_style
+    fill: currentColor;

@@ -72,7 +72,7 @@ img {
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
-	outline: 2px dashed #2196f3;
+	/* outline: 2px dashed #2196f3; */
 }
 /* Общие_оформление_текста_в_секциях */
 
@@ -202,6 +202,13 @@ img {
 	line-height: 1.14px;
 }
 
+/* HEADER CONTACT ICON */
+
+.header-contact-icon_contact_style {
+	fill: currentColor;
+	margin-right: 10px;
+}
+
 /* HERO-GENERAL */
 
 .hero-content-formation {
@@ -250,12 +257,18 @@ img {
 	padding: 10px 32px;
 }
 
-/* FEATURES-ICON */
+/* FEATURES LOGO */
 
-.features-icon {
+.features-logo-logo_casing {
 	width: 270px;
 	height: 120px;
-	background-color: rgb(26, 26, 27);
+	background: #f5f4fa;
+	border-radius: 4px;
+	display: block;
+	padding: 25px 100px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	cursor: default;
 }
 
 /* FEATURES */
@@ -535,13 +548,13 @@ img {
 	display: block;
 }
 
-.clients-logo-logo_casing:hover, 
+.clients-logo-logo_casing:hover,
 .clients-logo-logo_casing:focus {
 	border: 1px solid var(--inter-color);
 }
 
 .clients-logo-logo_casing:hover .clients-logo-style {
-fill: var(--inter-color);
+	fill: var(--inter-color);
 }
 
 .clients-logo-logo_casing:focus .clients-logo-style {
@@ -610,4 +623,73 @@ fill: var(--inter-color);
 }
 
 /* TEST */
-/* "printWidth": "Prose Wrap", */
+/* "printWidth":"ProseWrap", */
+
+/* "html.format.wrapAttributes": "force-aligned" */
+
+/* {
+  "printWidth": 100,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "proseWrap": "always"
+} */
+
+/* {
+	"arrowParens": "avoid",
+	"bracketSpacing": true,
+	"insertPragma": false,
+	"jsxBracketSameLine": false,
+	"jsxSingleQuote": false,
+	"printWidth": 100,
+	"proseWrap": "never",
+	"quoteProps": "as-needed",
+	"requirePragma": false,
+	"semi": true,
+	"singleQuote": false,
+	"tabWidth": 2,
+	"trailingComma": "all",
+	"useTabs": true,
+	"vueIndentScriptAndStyle": false,
+	"singleAttributePerLine": false
+} */
+
+/* {
+  "printWidth": 100,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "proseWrap": "always",
+"htmlWhitespaceSensitivity": "css"
+} */
+
+/* {
+	"arrowParens": "avoid",
+	"bracketSpacing": true,
+	"insertPragma": false,
+	"jsxBracketSameLine": false,
+	"jsxSingleQuote": false,
+	"printWidth": 500,
+	"proseWrap": "never",
+	"quoteProps": "as-needed",
+	"requirePragma": false,
+	"semi": true,
+	"singleQuote": false,
+	"tabWidth": 2,
+	"trailingComma": "all",
+	"useTabs": true,
+	"vueIndentScriptAndStyle": false,
+	"singleAttributePerLine": false,
+	"html.format.wrapAttributes": "force-aligned",
+	"htmlWhitespaceSensitivity": "css"
+} */
