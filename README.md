@@ -250,3 +250,11 @@ CASING FOOTER CONNECT SOC ICON
 22. Создал эффекты наведения курсора и фокуса для фона иконки: .footer-connect-soc_icon_decor:hover, .footer-connect-soc_icon_decor:focus: background: var(--inter-color);
 
 23. Создал левый отступ от кейса connect: .footer-connect-wrap: margin-left: 70px;
+
+PORTFOLIO SHADOW ON HOVER
+
+1. Создал обвертку для тени в карточках <li class="portfolio-card-shadow_hover_wrap">
+
+2. Создал тень по макету: .portfolio-card-shadow_hover_wrap: box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+3. Задал тень при ховэре .portfolio-card-shadow_hover_wrap:hover
