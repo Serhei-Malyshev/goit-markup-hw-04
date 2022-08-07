@@ -573,6 +573,12 @@ img {
 	background-color: var(--secondary-background-color);
 }
 
+.footer-logo_and_address_and_connect-flex {
+	display: flex;
+}
+
+/* FOOTER LOGO AND ADDRESS*/
+
 .footer-logo_blue {
 	display: block;
 	font-family: "Raleway";
@@ -582,6 +588,10 @@ img {
 	line-height: 1.19;
 	color: var(--inter-color);
 	margin-bottom: 20px;
+}
+
+.footer-logo_and_address-wrap {
+	width: 231px;
 }
 
 .footer-maps_link-style {
@@ -622,42 +632,54 @@ img {
 	color: var(--inter-color);
 }
 
+/* FOOTER CONTENT */
+
+.footer-connect-wrap {
+	margin-left: 70px;
+}
+.footer-logo_and_address_and_connect-flex {
+	align-items: baseline;
+}
+/* FOOTER CONNECT SUB TITLE*/
+
+.footer-connect-title_style {
+	color: rgba(255, 255, 255, 1);
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+}
+/* FOOTER SOC ICON */
+
+.footer-connect-soc_icon-formation {
+	display: flex;
+	gap: 10px;
+	margin-top: 20px;
+}
+
+.footer-connect-soc_icon_style {
+	fill: rgba(255, 255, 255, 1);
+}
+
+.footer-connect-soc_icon_decor {
+	background: rgba(255, 255, 255, 0.1);
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-connect-soc_icon_decor:hover,
+.footer-connect-soc_icon_decor:focus {
+	background: var(--inter-color);
+}
+
 /* TEST */
 /* "printWidth":"ProseWrap", */
-
 /* "html.format.wrapAttributes": "force-aligned" */
-
-/* {
-  "printWidth": 100,
-  "tabWidth": 2,
-  "useTabs": false,
-  "semi": true,
-  "singleQuote": true,
-  "trailingComma": "es5",
-  "bracketSpacing": true,
-  "jsxBracketSameLine": false,
-  "arrowParens": "avoid",
-  "proseWrap": "always"
-} */
-
-/* {
-	"arrowParens": "avoid",
-	"bracketSpacing": true,
-	"insertPragma": false,
-	"jsxBracketSameLine": false,
-	"jsxSingleQuote": false,
-	"printWidth": 100,
-	"proseWrap": "never",
-	"quoteProps": "as-needed",
-	"requirePragma": false,
-	"semi": true,
-	"singleQuote": false,
-	"tabWidth": 2,
-	"trailingComma": "all",
-	"useTabs": true,
-	"vueIndentScriptAndStyle": false,
-	"singleAttributePerLine": false
-} */
 
 /* {
   "printWidth": 100,
@@ -679,7 +701,7 @@ img {
 	"insertPragma": false,
 	"jsxBracketSameLine": false,
 	"jsxSingleQuote": false,
-	"printWidth": 500,
+	"printWidth": 100,
 	"proseWrap": "never",
 	"quoteProps": "as-needed",
 	"requirePragma": false,
@@ -692,4 +714,4 @@ img {
 	"singleAttributePerLine": false,
 	"html.format.wrapAttributes": "force-aligned",
 	"htmlWhitespaceSensitivity": "css"
-} */
+} */ ;

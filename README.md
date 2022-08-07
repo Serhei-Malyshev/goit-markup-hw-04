@@ -130,9 +130,9 @@ https://www.figma.com/file/1ehrLBauvVFu4mVhxsHzyZ/Web-Studio-(Version-2.1)?node-
 
 29. Меняю цвет лого при фокусе: .clients-logo-logo_casing:focus .clients-logo-style {fill: var(--inter-color);
 
-30. Создаю отступы через gap по макету 30px в css: 
+30. Создаю отступы через gap по макету 30px в css:
 
-31. Задаю правильный размер кейсов .clients-logo_casing-basis_calc {flex-basis: calc((100% - 5 * 30px) / 6);} в html: 
+31. Задаю правильный размер кейсов .clients-logo_casing-basis_calc {flex-basis: calc((100% - 5 \* 30px) / 6);} в html:
 <li class="clients-logo_casing-basis_calc">
 
 32. Обворачиваю контейнер для внутрених отступов между секциями 94px в html: <section class="clients-wrap"> в css: padding: 94px 0;
@@ -149,28 +149,19 @@ FEATURES
 
 5. Создаю кейс для логотипа <a href="#" class="link features-logo-logo_casing"></a>
 
-6. Создаю параметры кейса для лого по макету в css: 	
-    width: 270px;
-	height: 120px;
-	background: #F5F4FA;
-	border-radius: 4px;
+6. Создаю параметры кейса для лого по макету в css: width: 270px; height: 120px; background: #F5F4FA; border-radius: 4px;
 
-7. Задаю блочный параметр в .features-logo-logo_casing:
-    display: block;
+7. Задаю блочный параметр в .features-logo-logo_casing: display: block;
 
 8. Ставлю иконку в кейс тегом svg и use, задаю размер по макету <a href="#" class="link features-logo-logo_casing"><svg width="70" height="70"><use href="./img/toweb/features/features_logo.svg#icon-antenna"></use></svg></a>
 
-9. Рзмещаю иконки в кейсе согласно макету в css .features-logo-logo_casing
-    padding: 25px 100px;
+9. Рзмещаю иконки в кейсе согласно макету в css .features-logo-logo_casing padding: 25px 100px;
 
-10. Центрирую кейс в css: .features-logo-logo_casing 
-    margin: 0 auto;
+10. Центрирую кейс в css: .features-logo-logo_casing margin: 0 auto;
 
-11. Создаю нижний отступ от кейса 30px в css: .features-logo-logo_casing 
-    margin-bottom: 30px;
+11. Создаю нижний отступ от кейса 30px в css: .features-logo-logo_casing margin-bottom: 30px;
 
-12. Отключаю курсор при наведении в css: .features-logo-logo_casing:
-    cursor: default;
+12. Отключаю курсор при наведении в css: .features-logo-logo_casing: cursor: default;
 
 HEADER ICON CONTACT
 
@@ -188,8 +179,74 @@ HEADER ICON CONTACT
 
 7. Создаю стиль для иконки .header-contact-icon_contact_style и вставляю в html: <svg class="header-contact-icon_contact_style" width="10" height="16"><use href="./img/toweb/header/icon_contact.svg#icon-smartphone-1"></use></svg>+38 096 111 11 11</a>
 
-8. Задаю отступ в css: .header-contact-icon_contact_style
-    margin-right: 10px;
+8. Задаю отступ в css: .header-contact-icon_contact_style margin-right: 10px;
 
-9. Применяю стиль ссылки к иконке в css: .header-contact-icon_contact_style
-    fill: currentColor;
+9. Применяю стиль ссылки к иконке в css: .header-contact-icon_contact_style fill: currentColor;
+
+FOOTER CONNECT SECTION
+
+1. Обвернул уже созданый контент с лого и адрессом <div class="footer-logo_and_address-wrap">
+
+2. Создал обвертку для нового контента <div class="footer-connect-wrap">
+
+3. Флэксую оба кейса <div class="footer-logo_and_address_and_connect-flex">
+
+4. Задал левый оступ 70px от кейса connect: .footer-connect-wrap: margin-left: 70px;
+
+5. Выровнял кейсы по базовой линии их текстового содержимого: .footer-logo_and_address_and_connect-flex: align-items: baseline;
+
+FOOTER CONNECT TITLE
+
+1. Задал стиль заголовку "Приєднуйтесь" <h3 class="footer-connect-title_style">Приєднуйтесь</h3>
+
+2. Задал заголовку все большие буквы: .footer-connect-title_styletext-transform: uppercase;
+
+3. Применил заголовку стили из макета фигмы, использовал множитель
+
+CASING FOOTER CONNECT SOC ICON
+
+1. Создал список ul на 4 li: ul>li\*4 (Emmet - быстрая верстка)
+
+2. Убрал маркеры в ul и создал класс для формирования кнопок: <ul class="list">
+
+3. Скачал иконки с макета
+
+4. Оптимизировал иконки: https://jakearchibald.github.io/svgomg/ с включеной функцией Prettify murkup
+
+5. Создал спрайт: https://icomoon.io/
+
+6. Оптимизирвал спрайт: https://jakearchibald.github.io/svgomg/ с включеной функцыей Prettify murkup
+
+7. Удалил цвета и стили иконок в спрайте fill и style
+
+8. Создал внутри li ссылку <li><a href="#"></a></li>
+
+9. Внутри ссылки создал тег svg <li><a href="#"><svg></svg></a></li>
+
+10. Внутри тега svg создал тег use <li><a href="#"><svg><use></use></svg></a></li>
+
+11. Создал класс дэкора иконкам <a href="#" class="footer-connect-soc_icon_decor">
+
+12. Создал окружность и фон для иконок .footer-connect-soc_icon_decor: Фон : fill: rgba(255, 255, 255, 1); Высота: height: 44px; Ширина: width: 44px; Окружность: border-radius: 50%;
+
+13. Задал ширину и высоту иконок по макету <svg width="20" height="20">
+
+14. Создал стили для иконок <svg class="footer-connect-soc_icon_style">
+
+15. Применл стили по макету: .в css footer-connect-soc_icon_style: Цвет: fill: rgba(255, 255, 255, 1);
+
+16. Создал класс для расположения иконок по горизонтали: <ul class="footer-connect-soc_icon-formation">
+
+17. Задал параметры для расположения иконок по горизонтали: .footer-connect-soc_icon-formation: display: flex;
+
+18. Указал путь иконки из спрайта <use href="./img/toweb/footer/connect_soc_icon.svg#icon-instagram1"></use>
+
+19. Центрирую иконки: .footer-connect-soc_icon_decor: align-items: center; justify-content: center; и чтобы эти параметры сработали ставлю display: flex;
+
+20. Задал верхний отступ в .footer-connect-soc_icon-formation: margin-top: 20px;
+
+21. Создал отступы между иконками в .footer-connect-soc_icon-formation: gap: 10px;
+
+22. Создал эффекты наведения курсора и фокуса для фона иконки: .footer-connect-soc_icon_decor:hover, .footer-connect-soc_icon_decor:focus: background: var(--inter-color);
+
+23. Создал левый отступ от кейса connect: .footer-connect-wrap: margin-left: 70px;
