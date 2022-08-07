@@ -184,6 +184,8 @@ img {
 	line-height: 1.14px;
 	padding: 32px 0;
 	color: var(--secondary-text-color);
+	display: flex;
+	align-items: center;
 }
 
 .header-tel_link_style {
@@ -192,6 +194,8 @@ img {
 	line-height: 1.14px;
 	padding: 32px 0;
 	color: var(--secondary-text-color);
+	display: flex;
+	align-items: center;
 }
 
 .header-contact-mod:hover,

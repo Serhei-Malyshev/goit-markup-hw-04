@@ -165,23 +165,25 @@ FEATURES
 
 HEADER ICON CONTACT
 
-1. Выкачиваю иконки с макета в фигме
+1. Скачал иконки с макета в фигме
 
-2. Оптимизирую в сервисе: https://jakearchibald.github.io/svgomg/ с включеной функцыей Prettify murkup
+2. Оптимизировал: https://jakearchibald.github.io/svgomg/ с включеной функцыей Prettify murkup
 
-3. Создаю спрайт в https://icomoon.io/
+3. Создал спрайт: https://icomoon.io/
 
-4. Оптимизирую спрайт в сервисе: https://jakearchibald.github.io/svgomg/ с включеной функцыей Prettify murkup
+4. Оптимизировал спрайт: https://jakearchibald.github.io/svgomg/ с включеной функцыей Prettify murkup
 
-5. Создаю ссылку на иконку <svg><use href="./img/toweb/header/icon_contact.svg#icon-smartphone-1"></use></svg>
+5. Создал ссылку на иконку <use href="./img/toweb/header/icon_contact.svg#icon-smartphone-1">
 
-6. Изменяю размер иконки <a href="mailto:info@devstudio.com" target="_blank" class="header-mail_link_style header-contact-mod link"><svg width="16" height="12"><use href="./img/toweb/header/icon_contact.svg#icon-envelope-hover-1"></use></svg>info@devstudio.com</a>
+6. Изменл размер иконки <svg width="16" height="12">
 
-7. Создаю стиль для иконки .header-contact-icon_contact_style и вставляю в html: <svg class="header-contact-icon_contact_style" width="10" height="16"><use href="./img/toweb/header/icon_contact.svg#icon-smartphone-1"></use></svg>+38 096 111 11 11</a>
+7. Создал стиль для иконки: <svg class="header-contact-icon_contact_style">
 
-8. Задаю отступ в css: .header-contact-icon_contact_style margin-right: 10px;
+8. Задаk отступ: .header-contact-icon_contact_style margin-right: 10px;
 
-9. Применяю стиль ссылки к иконке в css: .header-contact-icon_contact_style fill: currentColor;
+9. Наследовал стиль ссылки на иконку: .header-contact-icon_contact_style: fill: currentColor;
+
+10. Центрировал иконку: .header-mail_link_style: display: flex; align-items: center; align-items: center;
 
 FOOTER CONNECT SECTION
 
