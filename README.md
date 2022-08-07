@@ -2,19 +2,27 @@
 
 https://www.figma.com/file/1ehrLBauvVFu4mVhxsHzyZ/Web-Studio-(Version-2.1)?node-id=1%3A493
 
-1. Вставил фон, указл путь к файлу background-image: url(../img/toweb/hero/Hero_bg.jpg);
+BACKGROUND IMAGE HERO
 
-2. убрал повтор background-repeat: no-repeat;
+1. Скачал фоновое изображение с макета
 
-3. Растянул по всей секции background-size: cover;
+2. Создал стиль для фонового изображения: <section class="hero-content-formation">
 
-4. центрировал background-position: center;
+3. Указал путь к фоновому изображению: .hero-content-formation: background-image: url(../img/toweb/hero/Hero_bg.jpg);
 
-5. Задал максимальную ширину 1600px; max-width: 1600px;
+4. Убрал повтор: .hero-content-formation > background-repeat: no-repeat;
 
-6. Расположил по центру margin: 0 auto;
+5. Растянул по всей секции: .hero-content-formation > background-size: cover;
 
-ставлю иконки соцсетей в секции TEAM
+6. Центрировал: .hero-content-formation > background-position: center;
+
+7. Задал максимальную ширину: .hero-content-formation > max-width: 1600px;
+
+8. Расположил по центру: .hero-content-formation > margin: 0 auto;
+
+9. Добавил функцию градиента по макету (overlay) к фоновому изображению (Затемнил): .hero-content-formation > background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/toweb/hero/Hero_bg.jpg);
+
+TEAM SOC ICON
 
 1. формирую структуру html для иконок: создаю список ul и создаю класс team-soc_icon-formation;
 

@@ -213,10 +213,10 @@ img {
 	margin-right: 10px;
 }
 
-/* HERO-GENERAL */
+/* HERO IMAGES BANNER */
 
 .hero-content-formation {
-	background-image: url(../img/toweb/hero/Hero_bg.jpg);
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/toweb/hero/Hero_bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -227,7 +227,7 @@ img {
 	padding-bottom: 200px;
 }
 
-/* HERO */
+/* HERO TITLE */
 
 .hero-title {
 	color: var(--background-color);
@@ -241,7 +241,7 @@ img {
 	margin: 0 auto 30px;
 }
 
-/* HERO-BUTTON */
+/* HERO BUTTON */
 
 .hero_super_button {
 	font-family: "Roboto";
