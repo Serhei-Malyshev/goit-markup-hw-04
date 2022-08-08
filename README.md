@@ -268,3 +268,9 @@ PORTFOLIO SHADOW ON HOVER
 2. Создал тень по макету: .portfolio-card-shadow_hover_wrap: box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
 3. Задал тень при ховэре .portfolio-card-shadow_hover_wrap:hover
+
+FILTER BUTTON SHASOW ON HOVER AND FOCUS
+
+1. Убрал обводку при фокусе на кнопку: <button type="button" class="input">
+
+2. Добавил тень при ховере и фокусе: .filter-button-mod:hover, .filter-button-mod:focus > box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
