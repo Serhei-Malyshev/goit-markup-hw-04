@@ -128,22 +128,26 @@ TEAM SOC ICON
 
 24. Задаю размеры лого в html разметке <a href="" class="link clients-logo-logo_casing"><svg width="106" height="60"><use href="./img/toweb/clients/logoclients.svg#icon-Logoclients1"></use></svg></a>
 
-25. Создаю внутренние отступы в кейсах для лого padding: 16px 32px;
+25. Центрирую иконки > задаю иконке флекс параметр: .clients-logo-logo_casing > display: flex;
 
-26. Меняю цвет логотипам: создаю в css .clients-logo-style с параметром fill: rgba(175, 177, 184, 1) в html: <a href="" class="link clients-logo-logo_casing"><svg class="clients-logo-style" width="106" height="60"><use href="./img/toweb/clients/logoclients.svg#icon-Logoclients1"></use></svg></a>
+26. Центрирую иконки по горизонтальной оси: .clients-logo-logo_casing > justify-content: center;
 
-27. Меняю цвет рамки при наведении курсора: .clients-logo-logo_casing:hover, .clients-logo-logo_casing:hover {border: 1px solid var(--inter-color);}
+27. Центрирую иконки по вертикальной оси: .clients-logo-logo_casing > align-items: center;
 
-28. Меняю цвет лого при наведении курсора: .clients-logo-logo_casing:hover .clients-logo-style {fill: var(--inter-color);}
+28. Меняю цвет логотипам: создаю в css .clients-logo-style с параметром fill: rgba(175, 177, 184, 1) в html: <a href="" class="link clients-logo-logo_casing"><svg class="clients-logo-style" width="106" height="60"><use href="./img/toweb/clients/logoclients.svg#icon-Logoclients1"></use></svg></a>
 
-29. Меняю цвет лого при фокусе: .clients-logo-logo_casing:focus .clients-logo-style {fill: var(--inter-color);
+29. Меняю цвет рамки при наведении курсора: .clients-logo-logo_casing:hover, .clients-logo-logo_casing:hover {border: 1px solid var(--inter-color);}
 
-30. Создаю отступы через gap по макету 30px в css:
+30. Меняю цвет лого при наведении курсора: .clients-logo-logo_casing:hover .clients-logo-style {fill: var(--inter-color);}
 
-31. Задаю правильный размер кейсов .clients-logo_casing-basis_calc {flex-basis: calc((100% - 5 \* 30px) / 6);} в html:
+31. Меняю цвет лого при фокусе: .clients-logo-logo_casing:focus .clients-logo-style {fill: var(--inter-color);
+
+32. Создаю отступы через gap по макету 30px в css:
+
+33. Задаю правильный размер кейсов .clients-logo_casing-basis_calc {flex-basis: calc((100% - 5 \* 30px) / 6);} в html:
 <li class="clients-logo_casing-basis_calc">
 
-32. Обворачиваю контейнер для внутрених отступов между секциями 94px в html: <section class="clients-wrap"> в css: padding: 94px 0;
+34. Обворачиваю контейнер для внутрених отступов между секциями 94px в html: <section class="clients-wrap"> в css: padding: 94px 0;
 
 FEATURES
 
@@ -163,13 +167,17 @@ FEATURES
 
 8. Ставлю иконку в кейс тегом svg и use, задаю размер по макету <a href="#" class="link features-logo-logo_casing"><svg width="70" height="70"><use href="./img/toweb/features/features_logo.svg#icon-antenna"></use></svg></a>
 
-9. Рзмещаю иконки в кейсе согласно макету в css .features-logo-logo_casing padding: 25px 100px;
+9. Центрирую иконки > задаю иконке флекс параметр: .features-logo-logo_casing > display: flex;
 
-10. Центрирую кейс в css: .features-logo-logo_casing margin: 0 auto;
+10. Центрирую иконки по горизонтальной оси: .features-logo-logo_casing > justify-content: center;
 
-11. Создаю нижний отступ от кейса 30px в css: .features-logo-logo_casing margin-bottom: 30px;
+11. Центрирую иконки по вертикальной оси: .features-logo-logo_casing > align-items: center;
 
-12. Отключаю курсор при наведении в css: .features-logo-logo_casing: cursor: default;
+12. Центрирую кейс: .features-logo-logo_casing margin: 0 auto;
+
+13. Создаю нижний отступ от кейса 30px в css: .features-logo-logo_casing margin-bottom: 30px;
+
+14. Отключаю курсор при наведении в css: .features-logo-logo_casing: cursor: default;
 
 HEADER ICON CONTACT
 
@@ -207,7 +215,7 @@ FOOTER CONNECT SECTION
 
 FOOTER CONNECT TITLE
 
-1. Задал стиль заголовку "Приєднуйтесь" <h3 class="footer-connect-title_style">Приєднуйтесь</h3>
+1. Задал стиль тексту "Приєднуйтесь", указал важность текста <strong class="footer-connect-title_style">Приєднуйтесь</strong>
 
 2. Задал заголовку все большие буквы: .footer-connect-title_styletext-transform: uppercase;
 
@@ -263,14 +271,20 @@ CASING FOOTER CONNECT SOC ICON
 
 PORTFOLIO SHADOW ON HOVER
 
-1. Создал обвертку для тени в карточках <li class="portfolio-card-shadow_hover_wrap">
+1. Обвернул карточки в ссылки <a href="" class="link">
 
-2. Создал тень по макету: .portfolio-card-shadow_hover_wrap: box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+2. Создал обвертку для тени в карточках: <div class="portfolio-card-shadow_hover_wrap">
 
-3. Задал тень при ховэре .portfolio-card-shadow_hover_wrap:hover
+3. Создал тень по макету: .portfolio-card-shadow_hover_wrap: box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+4. Задал тень при ховэре: .portfolio-card-shadow_hover_wrap:hover: box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
 FILTER BUTTON SHASOW ON HOVER AND FOCUS
 
 1. Убрал обводку при фокусе на кнопку: <button type="button" class="input">
 
 2. Добавил тень при ховере и фокусе: .filter-button-mod:hover, .filter-button-mod:focus > box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
+HEADER NAV MENU
+
+1.

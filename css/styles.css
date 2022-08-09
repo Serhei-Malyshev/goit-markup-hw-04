@@ -160,6 +160,7 @@ img {
 	letter-spacing: 0.02em;
 	padding: 32px 0;
 	color: var(--primery-text-color);
+	display: block;
 }
 
 .header-nav_menu-mod:hover,
@@ -283,8 +284,9 @@ img {
 	height: 120px;
 	background: #f5f4fa;
 	border-radius: 4px;
-	display: block;
-	padding: 25px 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	cursor: default;
@@ -454,6 +456,7 @@ img {
 	font-size: 16px;
 	line-height: 1.63;
 	border: none;
+	border-radius: 4px;
 	cursor: pointer;
 	padding: 6px 22px;
 	color: var(--background-color);
@@ -468,6 +471,7 @@ img {
 	line-height: 1.63;
 	cursor: pointer;
 	border: none;
+	border-radius: 4px;
 	padding: 6px 22px;
 	color: var(--primery-text-color);
 	background-color: var(--button_portfolio-color);
