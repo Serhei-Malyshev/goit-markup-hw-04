@@ -45,12 +45,14 @@ body {
 	text-decoration: none;
 }
 
+/* удалить рамки при фокусе */
+
 .input {
 	outline: 0 !important;
 	outline-offset: 0;
 }
 
-/* --скидываем_отступы_reset------------------------*/
+/* сброс отступов */
 
 p,
 h1,
@@ -184,6 +186,23 @@ img {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+}
+
+/* HEADER NAV MENU LINK UNDERLINING */
+
+.header-nav_menu_relative {
+	position: relative;
+}
+
+.header-nav_menu-link_underlining::after {
+	display: block;
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 4px;
+	border-radius: 2px;
+	background-color: #2196f3;
+	bottom: 0;
 }
 
 /* HEADER-CONTACT */
@@ -711,40 +730,11 @@ img {
 }
 
 /* TEST */
-/* "printWidth":"ProseWrap", */
-/* "html.format.wrapAttributes": "force-aligned" */
 
-/* {
-  "printWidth": 100,
-  "tabWidth": 2,
-  "useTabs": false,
-  "semi": true,
-  "singleQuote": true,
-  "trailingComma": "es5",
-  "bracketSpacing": true,
-  "jsxBracketSameLine": false,
-  "arrowParens": "avoid",
-  "proseWrap": "always",
-"htmlWhitespaceSensitivity": "css"
-} */
-
-/* {
-	"arrowParens": "avoid",
-	"bracketSpacing": true,
-	"insertPragma": false,
-	"jsxBracketSameLine": false,
-	"jsxSingleQuote": false,
-	"printWidth": 100,
-	"proseWrap": "never",
-	"quoteProps": "as-needed",
-	"requirePragma": false,
-	"semi": true,
-	"singleQuote": false,
-	"tabWidth": 2,
-	"trailingComma": "all",
-	"useTabs": true,
-	"vueIndentScriptAndStyle": false,
-	"singleAttributePerLine": false,
-	"html.format.wrapAttributes": "force-aligned",
-	"htmlWhitespaceSensitivity": "css"
-} */ ;
+.test_container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+	outline: 2px dashed #2196f3;
+	position: relative;
+}

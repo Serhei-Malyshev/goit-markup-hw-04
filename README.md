@@ -1,6 +1,6 @@
-# goit-markup-hw-04
+# goit-markup-hw-05
 
-https://www.figma.com/file/1ehrLBauvVFu4mVhxsHzyZ/Web-Studio-(Version-2.1)?node-id=1%3A493
+https://www.figma.com/file/1ehrLBauvVFu4mVhxsHzyZ/Web-Studio-(Version-2.1)?node-id=1%3A2125
 
 BACKGROUND IMAGE HERO
 
@@ -285,6 +285,18 @@ FILTER BUTTON SHASOW ON HOVER AND FOCUS
 
 2. Добавил тень при ховере и фокусе: .filter-button-mod:hover, .filter-button-mod:focus > box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
-HEADER NAV MENU
+HEADER LINK UNDERLINING
 
-1.
+1. Создал псевдоэлемент линиии подчеркивания: .header-nav_menu-link_underlining::after
+
+2. Добавил класс линии подчеркивания каждой ссылке
+
+3. Задал параметры линии подчеркивания по макету: .header-nav_menu-link_underlining::after display: block; width: 100%; height: 4px; border-radius: 2px; background-color: #2196f3; (можно растянуть линию подчеркивания на максимальное пространство: .header-nav_menu-link_underlining: flex-grow: 1;)
+
+4. Задал параметр content: .header-nav_menu-link_underlining::after: content: "";
+
+5. Задал абсолютное позиционирование: .header-nav_menu-link_underlining::after: position: absolute;
+
+6. Задал relative блоку в котором будет позиционироваться нижние подчеркивание: .header-nav_menu_relative: position: relative;
+
+7. Разместил подчеркивание снизу блока с ссылкой: bottom: 0;
