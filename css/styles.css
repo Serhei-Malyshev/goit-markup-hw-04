@@ -1,4 +1,4 @@
-/* global style */
+/** global-style-start */
 
 html {
   box-sizing: border-box;
@@ -68,9 +68,8 @@ img {
   overflow: hidden;
 }
 
-/* end-global-style */
-
-/** header-section */
+/** global-style-end */
+/** header-section-start */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -153,7 +152,6 @@ img {
 }
 
 /** header-section-end */
-
 /** hero-section-start */
 
 .hero {
@@ -202,37 +200,44 @@ img {
 }
 
 /** hero-section-end */
-
 /** advatages-section-start */
 
-.advantages__tittle {
-  color: #2e2f42;
+.advantages__card-pictures {
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+
+  background-color: #f4f4fd;
+}
+
+.advantages__card-tittle {
+  margin-bottom: 8px;
+
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.advantages__list {
+.advantages__card-list {
   display: flex;
   gap: 24px;
 }
 
-.advantages__item {
+.advantages__card-item {
   max-width: 264px;
 }
 
-.advantages__tittle {
-  margin-bottom: 8px;
-}
-
-.advantages__txt {
+.advantages__card-txt {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 /** advatages-section-end */
-
 /** our-team-section-start */
 
 .our-team {
@@ -243,11 +248,11 @@ img {
   margin-bottom: 72px;
 
   text-align: center;
-  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 
   text-transform: capitalize;
 }
@@ -264,9 +269,6 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   background-color: #ffffff;
 }
-
-/* .our-team__card-img {
-} */
 
 .our-team__card-desc {
   padding: 32px 0;
@@ -290,11 +292,7 @@ img {
 }
 
 /** our-team-section-end */
-
 /** portfolio-section-start */
-
-/* .portfolio {
-} */
 
 .portfolio__tittle-section {
   margin-bottom: 72px;
@@ -320,9 +318,6 @@ img {
   background-color: #ffffff;
 }
 
-/* .portfolio__card-img {
-} */
-
 .portfolio__card-desc {
   padding: 32px 16px;
 
@@ -346,7 +341,6 @@ img {
 }
 
 /** portfolio-section-end */
-
 /** footer-section-start */
 
 .footer {
