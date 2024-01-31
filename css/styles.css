@@ -213,6 +213,34 @@ img {
   background-color: #f4f4fd;
 }
 
+/* icon-background-advantages-section-start */
+
+.icon-antenna {
+  background-image: url(../images/section-advantages/icon/antenna.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.icon-astronaut {
+  background-image: url(../images/section-advantages/icon/astronaut.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.icon-clock {
+  background-image: url(../images/section-advantages/icon/clock.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.icon-diagram {
+  background-image: url(../images/section-advantages/icon/diagram.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* icon-background-asvantages-section-end */
+
 .advantages__card-tittle {
   margin-bottom: 8px;
 
