@@ -216,30 +216,30 @@ img {
 /* icon-background-advantages-section-start */
 
 .icon-antenna {
-  background-image: url(../images/section-advantages/icon/antenna.svg);
+  background-image: url(../images/section-advantages/icons-background/antenna.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .icon-astronaut {
-  background-image: url(../images/section-advantages/icon/astronaut.svg);
+  background-image: url(../images/section-advantages/icons-background/astronaut.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .icon-clock {
-  background-image: url(../images/section-advantages/icon/clock.svg);
+  background-image: url(../images/section-advantages/icons-background/clock.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .icon-diagram {
-  background-image: url(../images/section-advantages/icon/diagram.svg);
+  background-image: url(../images/section-advantages/icons-background/diagram.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-/* icon-background-asvantages-section-end */
+/* icon-background-advantages-section-end */
 
 .advantages__card-tittle {
   margin-bottom: 8px;
@@ -314,10 +314,46 @@ img {
 }
 
 .our-team__card-txt {
+  margin-bottom: 8px;
+
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* our-team-card-social-icon-start */
+
+.our-team__card-social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.our-team__card-social-item {
+  width: 40px;
+  height: 40px;
+}
+
+.our-team__card-social-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
+.our-team__card-social-icon {
+  fill: #f4f4fd;
+}
+
+.our-team__card-social-link:hover {
+  background-color: #31d0aa;
+}
+
+/* our-team-card-social-icon-end */
 
 /** our-team-section-end */
 /** portfolio-section-start */
