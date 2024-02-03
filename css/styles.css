@@ -473,12 +473,11 @@ img {
 }
 
 .footer__social-icon {
-  width: 16px;
-  height: 16px;
   fill: #f4f4fd;
 }
 
-.footer__social-link:hover {
+.footer__social-link:hover,
+.footer__social-link:focus {
   background-color: #31d0aa;
 }
 
