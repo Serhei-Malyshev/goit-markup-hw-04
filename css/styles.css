@@ -221,8 +221,6 @@ img {
 
 .advantages-icons {
   display: block;
-  width: 64px;
-  height: 64px;
 }
 
 .advantages__card-tittle {
@@ -330,8 +328,6 @@ img {
 }
 
 .our-team__card-social-icon {
-  width: 16px;
-  height: 16px;
   fill: #f4f4fd;
 }
 
