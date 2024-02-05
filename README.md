@@ -19,3 +19,4 @@ https://github.com/Serhei-Malyshev/goit-markup-hw-04/blob/main/images/mockup-jpg
 * https://github.com/Serhei-Malyshev/goit-markup-hw-01
 * https://github.com/Serhei-Malyshev/goit-markup-hw-02
 * https://github.com/Serhei-Malyshev/goit-markup-hw-03
+* https://github.com/Serhei-Malyshev/goit-markup-hw-05
