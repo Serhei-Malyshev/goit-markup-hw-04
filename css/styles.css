@@ -142,7 +142,6 @@ img {
   content: '';
   position: absolute;
 
-  display: block;
   bottom: -1px;
   left: 0;
 
@@ -386,6 +385,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+
   color: #2e2f42;
 }
 
@@ -401,14 +401,41 @@ img {
   background-color: #ffffff;
 }
 
-.portfolio__card-desc {
+.portfolio__card-item:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio__card-img-wrap {
+  position: relative;
+}
+
+.portfolio__card-img-detail-wrap {
+  position: absolute;
+
+  padding: 40px 32px;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: #4d5ae5;
+}
+
+.portfolio__card-img-detail-txt {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: #f4f4fd;
+}
+
+.portfolio__card-desc-wrap {
   padding: 32px 16px;
 
   border: 1px solid #e7e9fc;
   border-top: none;
 }
 
-.portfolio__card-tittle {
+.portfolio__card-desc-tittle {
   margin-bottom: 8px;
 
   font-size: 20px;
@@ -418,7 +445,7 @@ img {
   color: #2e2f42;
 }
 
-.portfolio__card-txt {
+.portfolio__card-desc-txt {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
